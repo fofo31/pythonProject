@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<body>
+<h1>{{article.titre}}<spanclass="small">dans {{article.categorie.nom}}
+  </span></h1>
+<pclass="infos"> Rédigé par {{article.auteur}}, le {{
+article.date|date:"DATE_FORMAT"}}</p>
+<divclass="contenu">{{article.contenu|linebreaks}}</div>
+
+</body>
+</html>

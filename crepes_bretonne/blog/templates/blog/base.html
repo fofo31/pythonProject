@@ -1,0 +1,30 @@
+<!DOCTYPEhtml>
+<htmllang="fr">
+<head>
+
+  <linkrel="stylesheet"href="/media/css/style.css"/>
+  <title>
+    {%blocktitle%}Mon blog sur les crêpesbretonnes{%endblock%}
+  </title>
+
+</head>
+
+<body>
+<header>Crêpes bretonnes</header>
+<nav>
+  {%blocknav%}
+  <ul>
+    <li><ahref="/">Accueil</a></li>
+    <li><ahref="/blog/">Blog</a></li>
+    <li><ahref="/contact/">Contact</a></li>
+
+  </ul>{
+  %endblock%}
+
+</nav>
+<sectionid="content">
+{%blockcontent%}{%endblock%}
+</section>
+<footer>&copy; Crêpes bretonnes</footer>
+</body>
+</html>
